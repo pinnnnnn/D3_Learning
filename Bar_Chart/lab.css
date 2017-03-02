@@ -1,0 +1,52 @@
+rect {
+  stroke: rgb(0, 0, 0);
+  stroke-width: 2;
+}
+
+.ideal-bar {
+  fill: rgb(129, 15, 124);
+  
+}
+.premium-bar {
+  fill: rgb(136, 86, 167);
+  
+}
+
+.verygood-bar {
+  fill: rgb(140, 150, 198);
+  
+}
+
+.good-bar {
+  fill: rgb(179, 205, 227);
+  
+}
+
+.fair-bar {
+  fill: rgb(237, 248, 251);
+  
+}
+
+line.x-axis {
+  stroke: rgb(0, 0, 0);
+  stroke-width: 2;
+}
+
+text.x-axis {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+text.y-axis {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+text.legend-text {
+	font-family: sans-serif;
+	font-size: 13px;
+}
+text.legend-header {
+	font-family: sans-serif;
+	font-weight: bold;
+}
