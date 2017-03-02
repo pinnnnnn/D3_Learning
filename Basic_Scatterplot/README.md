@@ -13,9 +13,6 @@ In this project, I implemented(methods I learned):
 + Interactive mouse over function by using ·
 ```js
  on("mouseover", function(d)) 
+ on("mouseout", function(d))
 ```
-    to impelement the mouseover,and
-```js
-  on("mouseout", function(d))
-```
-    to let it fade away.
+to impelement the mouseover, and to let it fade away.
