@@ -3,10 +3,19 @@ This project is an extension of CSC-395 Data Visualization [lab webpage](http://
 
 In this project, I implemented(methods I learned):
 
-1. x and y axis by using d3.scaleLinear() function and calling xaxis/yaxis method.
++ x and y axis by using d3.scaleLinear() function and calling xaxis/yaxis method.
+```js
+ d3.scaleLinear()
+     .range(a,b)
+    .domain(x,y)
+````
 
-2. Interactive mouse over function by using 
-
-  + on("mouseover", function(d)) to impelement the mouseover,and
-  
-  + on("mouseout", function(d)) to let it fade away.
++ Interactive mouse over function by using ·
+```js
+on("mouseover", function(d)) 
+```
+to impelement the mouseover,and
+```js
+   on("mouseout", function(d))
+```
+to let it fade away.
