@@ -7,12 +7,12 @@ In this project, I implemented(methods I learned):
 ```js
  d3.scaleLinear()
     .range(a,b)
-    .domain(x,y)
+    .domain(x,y)；
 ````
 
 + Interactive mouse over function by using ·
 ```js
- on("mouseover", function(d)) 
- on("mouseout", function(d))
+ .on("mouseover", function(d))； 
+ .on("mouseout", function(d))；
 ```
 to impelement the mouseover, and to let it fade away.
